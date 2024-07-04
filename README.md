@@ -12,8 +12,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone <repository-url>
-cd <repository-directory>
+cd <https://github.com/12friky/passwordGenerator>
 Install dependencies:
 
 
