@@ -1,6 +1,9 @@
 import styled from "styled-components";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+<<<<<<< HEAD
 // eslint-disable-next-line 
+=======
+>>>>>>> 1e1bc7973e328fa125605dcb0a863db6e9b90d7b
 
 export const PasswordGenerator = styled.div`
   color: white;

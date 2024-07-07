@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 import { useState, useCallback } from "react";
 import {Pfiedld, Pw, Pcopied, Copied, StyleIcon } from "./StyledComponents";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { faCopy } from "@fortawesome/free-solid-svg-icons";
 // eslint-disable-next-line 
+=======
+import React, { useState, useCallback } from "react";
+import { Pfiedld, Pw, Pcopied, Copied, StyleIcon } from "./StyledComponents";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCopy } from "@fortawesome/free-solid-svg-icons";
+>>>>>>> 1e1bc7973e328fa125605dcb0a863db6e9b90d7b
 
 import {
   MyLengtht,Lcg,Ln,RangeContainer,RangeInput,Container,CheckBoxContainer,Description,
@@ -17,7 +24,13 @@ import {
   Box4,
   GenerateButtonContainer,
   Button,
+<<<<<<< HEAD
   Arrow} from "./StyledComponents";
+=======
+  Arrow,
+  PasswordGenerator
+} from "./StyledComponents";
+>>>>>>> 1e1bc7973e328fa125605dcb0a863db6e9b90d7b
 
 const lowercaseList = "abcdefghijkmnopqrstuvwxyz";
 const uppercaseList = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";

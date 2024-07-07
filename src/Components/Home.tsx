@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 /* eslint-disable @typescript-eslint/no-unused-vars */
 // eslint-disable-next-line 
 import styled from "styled-components";
+=======
+import React from "react";
+import styled from "styled-components";
+import PassField from "./PasswordField";
+>>>>>>> 1e1bc7973e328fa125605dcb0a863db6e9b90d7b
 import TheRange from "./Clenght";
 import { PasswordGenerator } from "./StyledComponents";
 
@@ -50,7 +56,11 @@ function Home() {
       <Container>
         <PasswordGenerator>Password Generator</PasswordGenerator>
         <MainBox>
+<<<<<<< HEAD
          
+=======
+          {/* <PassField/> */}
+>>>>>>> 1e1bc7973e328fa125605dcb0a863db6e9b90d7b
           <DownBox>
             <TheRange />
           </DownBox>
